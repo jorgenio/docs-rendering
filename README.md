@@ -2,19 +2,19 @@
 This repository contains our official Documentation Rendering Engine. 
 
 ## Continuous integration
-Based on flat markdown content from [Github OVH.Docs](https://github.com/ovh/docs), we build docs.ovh.com and template all markdown with our rendering engine. Our build contains a bunch of static HTML files, deployed in ours front webfarms.
+Based on flat markdown content from [Github OVH.Docs](https://github.com/ovh/docs), we build docs.jorgenio.com and template all markdown with our rendering engine. Our build contains a bunch of static HTML files, deployed in ours front webfarms.
 
 Our CI Pipe is managed by [CDS](https://github.com/ovh/cds) 
-All modifications to this repository, will automatically trigger a new build to docs.ovh.com.
+All modifications to this repository, will automatically trigger a new build to docs.jorgenio.com.
 
 ## Test it 
 Test if with our developer environment [docs-developer-env](https://github.com/ovh/docs-developer-env)
 
 ## Technical specs
 
-[docs.ovh.com](https://docs.ovh.com/) is entirely generated with [Pelican](https://github.com/getpelican/pelican) from `markdown` [files](https://github.com/ovh/docs)
+[docs.jorgenio.com](https://docs.jorgenio.com/) is entirely generated with [Pelican](https://github.com/getpelican/pelican) from `markdown` [files](https://github.com/ovh/docs)
 
-In this repository, you will find all configurations, themes and plugins that we use in the context of the continuous delivery of [docs.ovh.com](https://docs.ovh.com/) illustrated in the diagram below (`green` part).
+In this repository, you will find all configurations, themes and plugins that we use in the context of the continuous delivery of [docs.jorgenio.com](https://docs.jorgenio.com/) illustrated in the diagram below (`green` part).
 
 ![CDS](screenshots/cds-diagram.png)
 
@@ -265,7 +265,7 @@ Template for Guide entity
 ![Home](screenshots/guide.png)
 
 ##### sitemap.html
-Generate sitemap of `docs.ovh.com`
+Generate sitemap of `docs.jorgenio.com`
 
 defined in config as direct template
 ```py

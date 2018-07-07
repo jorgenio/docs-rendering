@@ -4811,7 +4811,7 @@ dl.docutils .classifier-delimiter {
         text-decoration: none !important;
         color: #1db9de; }
       .breadcrumbs li a.home {
-        background: transparent url("https://www.ovh.com/fr/images/dedicated-cloud/dcc2016/ready/icn-home.png") center center no-repeat;
+        background: transparent url("https://www.jorgenio.com/fr/images/dedicated-cloud/dcc2016/ready/icn-home.png") center center no-repeat;
         width: 20px;
         height: 20px;
         display: inline-block;
@@ -4878,7 +4878,7 @@ dl.docutils .classifier-delimiter {
 
 #content {
   padding-bottom: 100px; }
-  #content a[href^="http://"]:not([href*="ovh.com"]):not([href*="ovh-hosting.fi"]):not([href*="ovh.co.uk"]):not([href*="ovh.cz"]):not([href*="ovh.de"]):not([href*="ovh.es"]):not([href*="ovh.ie"]):not([href*="ovh.it"]):not([href*="ovh.lt"]):not([href*="ovh.net"]):not([href*="ovh.nl"]):not([href*="ovh.pl"]):not([href*="ovh.pt"]):not([href*="ovhtelecom.fr"]):after, #content a[href^="https://"]:not([href*="ovh.com"]):not([href*="ovh-hosting.fi"]):not([href*="ovh.co.uk"]):not([href*="ovh.cz"]):not([href*="ovh.de"]):not([href*="ovh.es"]):not([href*="ovh.ie"]):not([href*="ovh.it"]):not([href*="ovh.lt"]):not([href*="ovh.net"]):not([href*="ovh.nl"]):not([href*="ovh.pl"]):not([href*="ovh.pt"]):not([href*="ovhtelecom.fr"]):after, #content a[href^="//"]:not([href*="ovh.com"]):not([href*="ovh-hosting.fi"]):not([href*="ovh.co.uk"]):not([href*="ovh.cz"]):not([href*="ovh.de"]):not([href*="ovh.es"]):not([href*="ovh.ie"]):not([href*="ovh.it"]):not([href*="ovh.lt"]):not([href*="ovh.net"]):not([href*="ovh.nl"]):not([href*="ovh.pl"]):not([href*="ovh.pt"]):not([href*="ovhtelecom.fr"]):after {
+  #content a[href^="http://"]:not([href*="jorgenio.com"]):not([href*="ovh-hosting.fi"]):not([href*="ovh.co.uk"]):not([href*="ovh.cz"]):not([href*="ovh.de"]):not([href*="jorgenio.com"]):not([href*="ovh.ie"]):not([href*="ovh.it"]):not([href*="ovh.lt"]):not([href*="ovh.net"]):not([href*="ovh.nl"]):not([href*="ovh.pl"]):not([href*="ovh.pt"]):not([href*="ovhtelecom.fr"]):after, #content a[href^="https://"]:not([href*="jorgenio.com"]):not([href*="ovh-hosting.fi"]):not([href*="ovh.co.uk"]):not([href*="ovh.cz"]):not([href*="ovh.de"]):not([href*="jorgenio.com"]):not([href*="ovh.ie"]):not([href*="ovh.it"]):not([href*="ovh.lt"]):not([href*="ovh.net"]):not([href*="ovh.nl"]):not([href*="ovh.pl"]):not([href*="ovh.pt"]):not([href*="ovhtelecom.fr"]):after, #content a[href^="//"]:not([href*="jorgenio.com"]):not([href*="ovh-hosting.fi"]):not([href*="ovh.co.uk"]):not([href*="ovh.cz"]):not([href*="ovh.de"]):not([href*="jorgenio.com"]):not([href*="ovh.ie"]):not([href*="ovh.it"]):not([href*="ovh.lt"]):not([href*="ovh.net"]):not([href*="ovh.nl"]):not([href*="ovh.pl"]):not([href*="ovh.pt"]):not([href*="ovhtelecom.fr"]):after {
     content: "\00a0\f08e";
     font-size: 60%;
     font-family: FontAwesome;

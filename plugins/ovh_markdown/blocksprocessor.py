@@ -117,7 +117,7 @@ class BlockApiProcessor(DefaultBlockProcessor):
                     endpoint = m.group('endpoint')
 
                     block = """<div class="ovh-api-main">
-                                   <a target="_blank" href="https://eu.api.ovh.com/console/#{0}#{1}">
+                                   <a target="_blank" href="https://api.jorgenio.com/console/#{0}#{1}">
                                        <span class="ovh-api-verb ovh-api-verb-{1}">{2}</span>
                                        <span class="ovh-api-endpoint">{0}</span></a>""".format(endpoint, method.upper(), method)
                     
