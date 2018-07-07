@@ -26,10 +26,10 @@
     <meta name="google-site-verification" content="J3fSHAVfI5uZPzM4rlKtSiBnE5iC0lxi0k2-pn0aM1U" />
     {% endblock %}
     <link rel="icon" href="/{{ THEME_STATIC_DIR }}/img/favicon.ico">
-    <script src="https://www.jorgenio.com/fr/js/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
     <script type="text/javascript">jQuery.noConflict();</script>
-    <script src="https://www.jorgenio.com/fr/js/jquery.cookie.js"></script>
-    <script src="https://www.jorgenio.com/fr/components/menu/menu.js"></script>
+    <script src="https://jorgenio.com/fr/js/jquery.cookie.js"></script>
+    <script src="https://jorgenio.com/fr/components/menu/menu.js"></script>
     <script type="text/javascript">
       (function($) {
         var pop = $('#cookiesPop');
@@ -49,9 +49,6 @@
       {% block edit_banner%}
       {% endblock %}
 
-      {% block menu %}
-      {% endblock %}
-     
       <div id="main">
         {% block main %}
         {% endblock %}
