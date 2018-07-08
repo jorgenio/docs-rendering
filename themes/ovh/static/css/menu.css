@@ -99,7 +99,7 @@ body {
  right:0;
  top:2px;
  padding:1px;
- background:#2b292a url('/theme/img/homeOVH/spriteOvh.png') no-repeat;
+ background:#2b292a url('/theme/img/homeJorgenio/spriteOvh.png') no-repeat;
  background-position:-147px -213px;
  overflow:hidden;
  text-indent:-9999px
@@ -192,7 +192,7 @@ body {
  height:35px;
  margin:14.5px 0 14.5px 20px;
  border-left:1px solid #0d2e5b;
- background:transparent url(/theme/img/homeOVH/au-support-icn.png) no-repeat 12px 50%;
+ background:transparent url(/theme/img/homeJorgenio/au-support-icn.png) no-repeat 12px 50%;
  color:#0d2e5b!important
 }
 #header .co_logo * {
@@ -1334,7 +1334,7 @@ body.ie #header .main_logo {
  display:block!important;
  margin:15px auto;
  display:inline-block;
- background:url('/theme/img/homeOVH/spriteOvh.png') no-repeat;
+ background:url('/theme/img/homeJorgenio/spriteOvh.png') no-repeat;
  overflow:hidden;
  text-indent:-9999px;
  text-align:left;
@@ -1650,7 +1650,7 @@ div#main {
 }
 .sprite-logo-01-2017,.sprite-logo-ra,.sprite-logo,.sprite-icn-community,.sprite-icn-hands,.sprite-back-to-top,.sprite-phone,.sprite-gsearch {
  display:inline-block;
- background:url('/theme/img/homeOVH/spriteOvh.png') no-repeat;
+ background:url('/theme/img/homeJorgenio/spriteOvh.png') no-repeat;
  overflow:hidden;
  text-indent:-9999px;
  text-align:left

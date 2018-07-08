@@ -1,8 +1,8 @@
-# OVH - Docs rendering engine
+# Jorgenio - Docs rendering engine
 This repository contains our official Documentation Rendering Engine. 
 
 ## Continuous integration
-Based on flat markdown content from [Github OVH.Docs](https://github.com/ovh/docs), we build docs.jorgenio.com and template all markdown with our rendering engine. Our build contains a bunch of static HTML files, deployed in ours front webfarms.
+Based on flat markdown content from [Github Jorgenio.Docs](https://github.com/ovh/docs), we build docs.jorgenio.com and template all markdown with our rendering engine. Our build contains a bunch of static HTML files, deployed in ours front webfarms.
 
 Our CI Pipe is managed by [CDS](https://github.com/ovh/cds) 
 All modifications to this repository, will automatically trigger a new build to docs.jorgenio.com.
@@ -41,7 +41,7 @@ our custom content.
 
 ### Plugins
 
-#### OVH Entities (`plugins/ovh_entities`)
+#### Jorgenio Entities (`plugins/ovh_entities`)
 extends [`pelican-entities`](https://github.com/AlexJF/pelican-entities) in order to suit our needs.
 
 ##### Entity matching
@@ -67,13 +67,13 @@ More info about entity naming and hierarchy can be found [here](https://github.c
 |   |   |   |   |   └── guide.fr-fr.md (title: Les bases des sites web)
 |   |   |   |   ├── day02
 |   |   |   |   |   └── guide.fr-fr.md (title: Choisir et configurer un nom de domaine)
-|   |   |   |   └── guide.fr-fr.md (title: Développer votre projet pas à pas avec l'hébergement web OVH)
+|   |   |   |   └── guide.fr-fr.md (title: Développer votre projet pas à pas avec l'hébergement web Jorgenio)
 |   |   |   ├── product.en-gb.md (title: Domains and DNS)
 |   |   |   └── product.fr-fr.md (title: Domaines et DNS)
 |   |   ├── universe.en-gb.md (title: Web)
 |   |   └── universe.fr-fr.md (title: Web)
-|   ├── home.en-gb.md (title: OVH - Documentation)
-|   └── home.fr-fr.md (title: OVH - Guides)
+|   ├── home.en-gb.md (title: Jorgenio - Documentation)
+|   └── home.fr-fr.md (title: Jorgenio - Guides)
 └── README.md
 ```
 
@@ -137,7 +137,7 @@ ENTITY_TYPES = {
 }
 ```
 
-#### OVH markdown (`plugins/ovh_markdown`)
+#### Jorgenio markdown (`plugins/ovh_markdown`)
 This plugin contains all custom processors for rendering content like `notices` that `markdown parser` does not handle by default.
 
 - `BlockCalloutProcessor` for notices
@@ -147,12 +147,12 @@ This plugin contains all custom processors for rendering content like `notices` 
 
 see markdown usages [here](https://github.com/ovh/docs/blob/master/docs-guideline/markdown-custom.md)
 
-#### OVH Filters (`plugins/ovh_filters`)
+#### Jorgenio Filters (`plugins/ovh_filters`)
 
 Contains Jinja2 filters used in templates.
 
 ##### breadcrumbs
-get an array of (title, url) from parents of an OVH Entity
+get an array of (title, url) from parents of an Jorgenio Entity
 
 ```jinja
 <!-- usage example -->
@@ -211,7 +211,7 @@ translate a content according to a given language. Dictionary defined in [config
 <h3>{{section|translate(entity.global)}}</h3>
 ```
 
-### Themes - OVH
+### Themes - Jorgenio
 
 stored in the folder `themes/ovh`
 ```

@@ -4,13 +4,13 @@
     {{- super() -}}
 
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:site" content="@OVH" />
-    <meta name="twitter:creator" content="@OVH" />
+    <meta name="twitter:site" content="@Jorgenio" />
+    <meta name="twitter:creator" content="@Jorgenio" />
     <meta name="twitter:image:src" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/og/illus-guides-ovh-A-1200x900-px.jpg" />
     <meta property="og:type" content="article" />
     <meta property="og:title" content="{{entity.title}}" />
     <meta property="og:url" content="{{ SITEURL }}/{{entity.url}}" />
-    <meta property="og:url" content="OVH" />
+    <meta property="og:url" content="Jorgenio" />
     <meta property="og:image" content="{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/og/illus-guides-ovh-A-1200x900-px.jpg" />
     {% if entity.metadata.get('excerpt') %}
     <meta property="og:description" content="{{ entity.metadata.get('excerpt')|replace('"',"'")|replace('\n',' ')|trim}}" />
@@ -30,7 +30,7 @@
       ],
       "publisher": {
         "@type": "Organization",
-        "name": "OVH",
+        "name": "Jorgenio",
         "logo": {
           "@type": "ImageObject",
           "url": "{{ SITEURL }}/{{ THEME_STATIC_DIR }}/img/menu/logo.png"
@@ -81,7 +81,7 @@
               {{'Share'|translate(entity.global)}}
             </button>
             <div class="dropdown-menu">
-              <a class="dropdown-item" target="_blank" href="http://twitter.com/share?text={{entity.title}} %23OVHguides&url={{SITEURL}}/{{entity.url}}">
+              <a class="dropdown-item" target="_blank" href="http://twitter.com/share?text={{entity.title}} %23Jorgenioguides&url={{SITEURL}}/{{entity.url}}">
                 <i class="fab fa-twitter-square"></i> Twitter</a>
               <a class="dropdown-item" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u={{SITEURL}}/{{entity.url}}">
                 <i class="fab fa-facebook-square"></i> Facebook</a>

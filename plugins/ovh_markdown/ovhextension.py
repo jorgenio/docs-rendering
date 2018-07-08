@@ -7,17 +7,17 @@ from .blocksprocessor import BlockCalloutProcessor, BlockApiProcessor, BlockFaqP
 from .preprocessor import NormalizeImg, NormalizeLink
 
 
-class OVHMarkdownExtension(Extension):
+class JorgenioMarkdownExtension(Extension):
 
     def __init__(self, config):
         try:
             # Needed for Markdown versions >= 2.5
             self.config['config'] = ['{}', 'config for markdown extension']
-            super(OVHMarkdownExtension, self).__init__(**config)
+            super(JorgenioMarkdownExtension, self).__init__(**config)
         except AttributeError:
             # Markdown versions < 2.5
             config['config'] = [config['config'], 'config for markdown extension']
-            super(OVHMarkdownExtension, self).__init__(config)
+            super(JorgenioMarkdownExtension, self).__init__(config)
 
     def extendMarkdown(self, md, md_globals):
         # Add preprocessors 

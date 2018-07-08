@@ -8,11 +8,11 @@ import sys
 from pelican import signals
 
 try:
-    from .ovhextension import OVHMarkdownExtension
+    from .ovhextension import JorgenioMarkdownExtension
 except ImportError as e:
-    OVHMarkdownExtension = None
+    JorgenioMarkdownExtension = None
     print(e.message)
-    print("\nMarkdown is not installed - OVH Markdown extension disabled\n")
+    print("\nMarkdown is not installed - Jorgenio Markdown extension disabled\n")
 
 def process_settings(pelicanobj):
     """Sets user specified settings (see README for more details)"""
@@ -23,7 +23,7 @@ def process_settings(pelicanobj):
 
     # Get the user specified settings
     try:
-        settings = pelicanobj.settings['MD_OVH']
+        settings = pelicanobj.settings['MD_Jorgenio']
     except:
         settings = None
 
@@ -38,18 +38,18 @@ def ovh_markdown_extension(pelicanobj, config):
 
     # Instantiate Markdown extension and append it to the current extensions
     try:
-        pelicanobj.settings['MARKDOWN']['extensions'].append(OVHMarkdownExtension(config))
+        pelicanobj.settings['MARKDOWN']['extensions'].append(JorgenioMarkdownExtension(config))
         
     except:
         sys.excepthook(*sys.exc_info())
-        sys.stderr.write("\nError - the pelican Markdown extension failed to configure. OVH Markdown extension is non-functional.\n")
+        sys.stderr.write("\nError - the pelican Markdown extension failed to configure. Jorgenio Markdown extension is non-functional.\n")
         sys.stderr.flush()
 
 def ovh_init(pelicanobj):
     """Loads settings and instantiates the Python Markdown extension"""
 
     # If there was an error loading Markdown, then do not process any further 
-    if not OVHMarkdownExtension:
+    if not JorgenioMarkdownExtension:
         return
 
     # Process settings

@@ -6,8 +6,8 @@ import sys
 sys.path.append('.')
 from plugins.ovh_entities.ovh_entities import OvhEntityGenerator
 
-AUTHOR = 'OVH'
-SITENAME = "OVH Guides"
+AUTHOR = 'Jorgenio'
+SITENAME = "Jorgenio Guides"
 SITEURL = ''
 TIMEZONE = "Europe/Paris"
 

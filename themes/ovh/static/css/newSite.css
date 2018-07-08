@@ -32137,7 +32137,7 @@ input[type="button"], .newButton {
 .MenuInternal {
   border-bottom: 1px solid #59d2ef;
   padding-bottom: 15px;
-  /* Fix conflict with responsive.css (br clear both). We use both responsive.css and newSite.css on OVH Telecom. */ }
+  /* Fix conflict with responsive.css (br clear both). We use both responsive.css and newSite.css on Jorgenio Telecom. */ }
   .MenuInternal br {
     clear: inherit; }
   .MenuInternal a {
@@ -32992,7 +32992,7 @@ input[type="radio"].newRadio {
 .sprite-logo-01-2017, .sprite-logo-ra, .sprite-logo, .sprite-icn-community, .sprite-icn-hands,
 .sprite-img-careers, .sprite-back-to-top, .sprite-phone, .sprite-gsearch {
   display: inline-block;
-  background: url("/theme/img/homeOVH/spriteOvh.png") no-repeat;
+  background: url("/theme/img/homeJorgenio/spriteOvh.png") no-repeat;
   overflow: hidden;
   text-indent: -9999px;
   text-align: left; }
