@@ -34,7 +34,7 @@ ARTICLE_PATHS = []
 LINKS = ()
 
 # global metadata to all the contents
-DEFAULT_METADATA = {'lang': 'fr-fr', 'locale': 'fr', 'global': 'fr', 'order': 'z', 'folder': '', 'summary': False,}
+DEFAULT_METADATA = {'lang': 'es-es', 'locale': 'es', 'global': 'es', 'order': 'z', 'folder': '', 'summary': False,}
 
 # path-specific metadata
 EXTRA_PATH_METADATA = {
@@ -95,44 +95,12 @@ MARKDOWN = {
 }
 
 ZONES = {
-    'en-au': 'Australia',
-    'en-ca': 'Canada',
-    'fr-ca': 'Québec',
-    'cs-cz': 'Czech Republic',
-    'de-de': 'Germany',
     'es-es': 'Spain',
-    'fi-fi': 'Finland',
-    'fr-fr': 'France',
-    'en-gb': 'United Kingdom',
-    'en-ie': 'Ireland',
-    'it-it': 'Italy',
-    'lt-lt': 'Lithuania',
-    'nl-nl': 'Netherlands',
-    'pl-pl': 'Poland',
-    'pt-pt': 'Portugal',
-    'fr-ma': 'Morocco',
-    'mx': 'WorldSpanish',
-    'fr-sn': 'Senegal',
-    'fr-tn': 'Tunisia',
     'en-us': 'United States',
 }
 
 LANGS = {
-    'en-au': 'English (Australia)',
-    'en-ca': 'English (Canada)',
-    'fr-ca': 'Français (Canada)',
-    'cs-cz': 'Česky',
-    'de-de': 'Deutsch',
     'es-es': 'Español',
-    'fi-fi': 'Suomen kieli',
-    'fr-fr': 'Français',
-    'en-gb': 'English (GB)',
-    'en-ie': 'English (Ireland)',
-    'it-it': 'Italiano',
-    'lt-lt': 'Lietuvių kalba',
-    'nl-nl': 'Nederlands',
-    'pl-pl': 'Polski',
-    'pt-pt': 'Português',
     'en-us': 'English (US)',
 }
 
